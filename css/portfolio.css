@@ -1,0 +1,123 @@
+/* ---------- portfolio -------------- */
+.photo-gallery-banner {
+    border: 1px solid transparent;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+   }
+  
+   .photo-gallery-banner h3 {
+    color: #E31C25;
+    margin-bottom: 10px;
+    font-size: 18px; 
+    margin-left: 2%;
+    text-align: left;
+   }
+  
+   .photo-gallery-banner h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-left: 2%;
+    text-align: left;
+   }
+  
+   .gallery-row {
+      margin-bottom: 10px;
+      text-align: center;
+   }
+  
+   .gallery-photo {
+    background-color: lightgrey;
+    height: 300px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 23%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+  
+   .photo-gallery-banner a {
+    font-weight: 600;
+    background-color: #EB1D23;
+    border-radius: 25px;
+    padding: 15px 30px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin:0 auto;
+    margin-top: 30px;
+  }
+  
+  .photo-gallery-banner a:hover {
+    background-color: #216484;
+    transition: 0.2s;
+    border-bottom: 2px solid #EB1D23;
+  }
+
+
+/* Mobile Small  --------------------------------------------------------- */
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .gallery-photo {
+    height: 260px;
+    display: block;
+    width: 97%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile Medium  --------------------------------------------------------- */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .gallery-photo {
+    height: 280px;
+    display: block;
+    width: 97%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Mobile Large - --------------------------------------------------------- */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+   .gallery-photo {
+      height: 300px;
+      display: block;
+      width: 97%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 15px;
+    }
+}
+
+/* Tablet - --------------------------------------------------------------- */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .gallery-photo {
+    height: 180px;
+    width: 30.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+   }
+}
+
+/* Laptop ------------------------------------------------------------------ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .gallery-photo {
+    height: 230px;
+    margin-bottom: 10px;
+   }
+}
+
+/* Laptop Large -------------------------------------------------------------*/
+@media screen and (min-width: 1025px) and (max-width: 1440px) {}
+
+/* 4K Large Desktop ------------------------------------------------------- */
+@media screen and (min-width: 1441px) {}
