@@ -1,0 +1,8 @@
+Color Palette
+
+------
+
+- Blue      :
+- Black     :  #262421
+- White     :  #FFFFFF
+- Nav White :  #FAFBFC
