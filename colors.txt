@@ -2,7 +2,7 @@ Color Palette
 
 ------
 
-- Blue      :
+- Blue      :  #1F55B3
 - Black     :  #262421
 - White     :  #FFFFFF
 - Nav White :  #FAFBFC
