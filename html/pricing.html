@@ -119,75 +119,47 @@
 
     </div>
 
-    <!-- footer -->
-    <div class="footer">
-        <div class="footer-left-box">
-            <a href="" class="footer-logo"><img src="./branding/logo.png" alt="logo"></a>
-            <p>Washington State's premier handyman service, offering expert
-                residential and commercial solutions with a commitment to
-                quality and customer satisfaction.
-            </p>
-            <a href=""><i class="ri-mail-line"></i> info@handymanpratt.com</a>
+   <!-- footer -->
+   <div class="footer">
+    <div class="footer-left-box">
+        <a href="../index.html" class="footer-logo"><img src="../branding/logo.png" alt="logo"></a>
+        <p>Premier web development agency, offering expert solutions for
+            small business owners with a commitment to quality results
+            at an affordable price.
+        </p>
+    </div>
+    <div class="footer-right-box">
+        <div class="footer-col">
+            <h3>Sitemap</h3>
+            <a href="../index.html">Home</a>
+            <a href="./about.html">Why Us?</a>
+            <a href="./pricing.html">Pricing</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
         </div>
-        <div class="footer-right-box">
-            <div class="footer-col-big">
-                <h3>Services</h3>
-                <a href="./html/services.html#repairs-link">General Home Repairs</a>
-                <a href="./html/services.html#plumbing-link">Plumbing Work</a>
-                <a href="./html/services.html#electrical-link">Electrical Work</a>
-                <a href="./html/services.html#painting-link">Painting and Drywall</a>
-                <a href="./html/services.html#carpentry-link">Carpentry</a>
-            </div>
-            <div class="footer-col">
-                <h3>Contact</h3>
-                <a href="">Facebook</a>
-                <a href="">Instagram</a>
-            </div>
-            <div class="footer-col">
-                <h3>Help</h3>
-                <a href="./html/contact.html">Contact US</a>
-            </div>
+        <div class="footer-col-big">
+            <h3>Services</h3>
+            <a href="#">Web Development</a>
+            <a href="#">Web Design</a>
+            <a href="#">Hosting, Domains & Support</a>
+            <a href="">Logos & Branding</a>
+            <a href="">Copywriting</a>
+        </div>
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <a href="./html/contact.html"><i class="ri-phone-line"></i> +90 (530) 780 74 36</a>
+            <a href=""><i class="ri-mail-line"></i> demir99antay@gmail.com</a>
+            <a href=""><i class="ri-map-pin-line"></i> Worldwide</a>
         </div>
     </div>
-    <div class="footer-bottom">
-        <p>Copyright© 2024. Designed & Hand Coded By Demir Antay. All Right Reserved.</p>
-    </div>
+</div>
+<div class="footer-bottom">
+    <p>Copyright© 2024. Designed & Hand Coded By Demir Antay. All Right Reserved.</p>
+</div>
+
 
 </body>
 
 </html>
 
-<script>
-
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-        if (window.scrollY > 50) {
-            document.getElementById("navbar-top").style.display = "none";
-            document.getElementById("navbar").style.height = "85px";
-            document.getElementById("navbar-logo").style.height = "80px";
-        } else {
-            document.getElementById("navbar-top").style.display = "block";
-            document.getElementById("navbar").style.height = "135px";
-            document.getElementById("navbar-logo").style.height = "130px";
-        }
-    }
-
-    // hidden mobile navigation toggle logic
-    let open_btn = document.getElementById("hidden-mobile-open-btn");
-    let close_btn = document.getElementById("hidden-mobile-close-btn");
-    let hidden_mobile_bg = document.getElementById("hidden-mobile-bg");
-    let hidden_mobile = document.getElementById("hidden-mobile");
-
-    open_btn.onclick = function() {
-        hidden_mobile_bg.style.display = "block";
-        hidden_mobile.style.display = "block";
-    }
-
-    close_btn.onclick = function() {
-        hidden_mobile_bg.style.display = "none";
-        hidden_mobile.style.display = "none";
-    }
-
-</script>
+<script src="../dom.js"></script>
