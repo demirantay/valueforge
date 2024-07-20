@@ -7,4 +7,5 @@ Color Palette
 - White     :  #FFFFFF
 - Nav White :  #FAFBFC
 
-- img bg    : 
+- img bg    :  #E5E7E9
+- p color   :  #4D4B66
