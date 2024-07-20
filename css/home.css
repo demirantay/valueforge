@@ -41,7 +41,7 @@
     display: inline-block;
     vertical-align: top;
     width: 58%;
-}   
+}
 
 .hello-banner-left h1 {
     font-size: 60px;
@@ -86,8 +86,8 @@
 /* -------------------- services links ------------------------- */
 .services-links {
     width: 100%;
-    padding-top: 90px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 .services-links-top {
@@ -107,6 +107,7 @@
 .services-top-left h1 {
     font-size: 45px;
     margin-right: 10px;
+    margin-left: 15px;
 }
 
 .services-top-right {
@@ -138,6 +139,8 @@
     margin-right: 0.5%;
     display: inline-block;
     vertical-align: top;
+    position: relative;
+    height: 650px;
 }
 
 .service-cell-img {
@@ -153,7 +156,7 @@
 
 .services-links-cell h3 {
     font-size: 22px;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
 
 .services-links-cell p {
@@ -164,6 +167,8 @@
 #bottom-link-cell {
     color: #1F55B3;
     font-weight: 500;
+    position: absolute;
+    bottom:0;
 }
 
 #bottom-link-cell i {
@@ -176,13 +181,174 @@
 }
 
 /* -------------------- abount banner ------------------------- */
-.about-banner {}
+.about-banner {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F9F7F3;
+}
 
-/* -------------------- services banner ------------------------- */
-.services-banner {}
+.about-banner-left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    border: 1px solid transparent;
+}
+
+.about-banner-img-1 {
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 50vh;
+    width: 300px;
+    margin-right: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner-img-2 {
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 60vh;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-banner-right {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    border: 1px solid transparent;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.about-banner-right h3 {
+    color: #1F55B3;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.about-banner-right h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.about-banner-right p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 45px;
+    line-height: 1.5;
+}
+
+.about-banner-right a {
+    font-weight: 600;
+    background-color: #1F55B3;
+    border-radius: 25px;
+    padding: 15px 30px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    text-decoration: none;
+}
+
+.about-banner-right a:hover {
+    background-color: #262421;
+    transition: 0.2s;
+    border-bottom: 2px solid #1F55B3;
+}
+
+/* -------------------- services full ------------------------- */
+.services-banner {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.services-banner h2 {
+    margin-bottom: 10px;
+}
+
+.services-banner p {
+    color: #4D4B66;
+    margin-bottom: 10px;
+}
+
+.service-full-cell {
+    width: 28%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: #F9F7F3;
+    text-align: left;
+}
+
+.serice-full-cell-icon {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #1F55B3;
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin-top: -50px;
+    z-index: 1;
+    text-align: center;
+}
+
+.serice-full-cell-icon i {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px; 
+}
+
+.service-full-cell h3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+.service-full-cell p {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+}
+
+.service-full-cell a {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #1F55B3;
+    text-decoration: none;
+    font-weight: 500;
+}
 
 /* -------------------- portfolio   ------------------------- */
-.portfolio-banner {}
+.portfolio-banner {
+    background-color: #262421;
+    padding-top: 300px;
+    margin-top: -200px;
+}
 
 /* -------------------- testimonials  ------------------------- */
 .testimonial-banner {}
