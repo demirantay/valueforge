@@ -1,21 +1,255 @@
+/* --------------- contact LEFT ------------------- */
+.content-wrapper {
+    border: 1px solid transparent;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}       
 
+.contact-left {
+    border: 1px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 58%;
+}
+
+.contact-left h4 {
+    color: #1F55B3;
+    margin-bottom: 10px;
+    font-size: 18px; 
+}
+
+.contact-left h2 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.contact-left p {
+    margin-bottom: 30px;
+    width: 60%;
+    color: #262421;
+
+}
+
+.contact-left form {}
+
+.contact-left form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-left form input {
+    width: 90%;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}   
+
+.contact-left form input:focus {
+    outline: none;
+    border-color: black;
+}
+
+.contact-left form textarea {
+    width: 90%;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.contact-left form textarea:focus {
+    outline: none;
+    border-color: black;
+}
+
+#submit-btn {
+    width: 93% !important;
+    border-radius: 15px;
+    color: white !important;
+    background-color: #1F55B3 !important;
+    border: 1px solid #1F55B3 !important;
+    
+}
+
+#submit-btn:hover {
+    background-color: #262421 !important;
+    border-color: #262421 !important;
+    transition: 0.2s; 
+    border-bottom: 2px solid #1F55B3 !important;
+    cursor: pointer;
+}
+
+#submit-btn-link {
+    text-decoration: none;
+    display: block;
+    width: 90% !important;
+    border-radius: 15px;
+    color: white !important;
+    background-color: #1F55B3 !important;
+    border: 1px solid #1F55B3 !important;
+    padding: 10px 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+#submit-btn-link:hover {
+    background-color: #262421 !important;
+    border-color: #262421 !important;
+    transition: 0.2s; 
+    border-bottom: 2px solid #1F55B3 !important;
+    cursor: pointer;
+}
+
+.custom-txt {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    width: 90% !important;
+    color: #4D4B66;
+    font-size: 20px;
+}
+
+/* --------------- contact RIGHT ------------------- */
+
+.contact-right {
+    border: 1px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    width: 38%;
+    height: 75vh;
+    position: relative;
+
+    background-image: url("../img/img8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-right-info {
+    position: absolute;
+    bottom:0;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.contact-right-info p {
+    font-weight: 500;
+    margin-bottom: 5px;
+}   
+
+.contact-right-info h3 {
+    font-weight: bold;
+    font-size: 22px;
+}   
 
 
 
 /* Mobile Small  --------------------------------------------------------- */
-@media screen and (min-width: 0px) and (max-width: 320px) {}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+}
 
 /* Mobile Medium  --------------------------------------------------------- */
-@media screen and (min-width: 321px) and (max-width: 375px) {}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+}
 
 /* Mobile Large - --------------------------------------------------------- */
-@media screen and (min-width: 376px) and (max-width: 425px) {}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .content-wrapper {
+        width: 95%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }       
+    .contact-left {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contact-right {
+        display: block;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    
+}
 
 /* Tablet - --------------------------------------------------------------- */
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .contact-left {
+        width: 60%;
+    }
+    .contact-right {
+        width: 38%;
+        height:55vh;
+    }
+
+    .contact-right-info {
+        margin-bottom: 20px;
+        margin-left: 10px;   
+    }
+    
+    .contact-right-info h3 {
+        font-size: 16px;
+    }   
+    
+}
 
 /* Laptop ------------------------------------------------------------------ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact-left {
+        width: 61%;
+    }
+    .contact-right {
+        width: 35%;
+        height: 65vh;
+    }
+}
 
 /* Laptop Large -------------------------------------------------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1440px) {}
