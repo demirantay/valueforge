@@ -9,3 +9,4 @@ Color Palette
 
 - img bg    :  #E5E7E9
 - p color   :  #4D4B66
+- box border:  #E8E8E8
