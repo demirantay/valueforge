@@ -468,12 +468,12 @@
 }
 
 .faq-left h2 {
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
 .faq-img {
-    height: 300px;
+    height: 350px;
     width: 90%;
     background-color: #E5E7E9;
     border-radius: 6px;
@@ -486,34 +486,112 @@
 }
 
 .accordion {
-    background-color: #E5E7E9;
-    color: #444;
+    background-color: #F7F7F7;
+    color: #262421;
+    font-weight: 500;
     cursor: pointer;
-    padding: 18px;
+    padding: 30px 20px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.4s;
     margin-bottom: 10px;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #ccc; 
-  }
-  
-  .panel {
-    padding: 0 18px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    margin-bottom: 20px;
     display: none;
     background-color: white;
     overflow: hidden;
-    padding-bottom: 20px;
-  }
+    padding: 10px 20px;
+}
+
+.panel p {
+    line-height: 1.5;
+}
+
+.panel p a {
+    text-decoration: none;
+    color: #1F55B3;
+}
 
 /* -------------------- CTA ------------------------- */
-.cta-banner {}
+.cta-banner {
+    height: 55vh;
+    background-image: url("../img/img12.jpg");
+    background-position: center;
+    position: relative;
 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cta-bg-opacity {
+    position: absolute;
+    background-color: #262421;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+    z-index: 9 !important;
+}
+
+.cta-text {
+    position: absolute;
+    opacity: 1;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99 !important;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12vh;
+    width: 50%;
+}
+
+.cta-text h2 {
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.cta-text a {
+    color: white !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    border: 1px solid #1F55B3;
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #1F55B3;
+}
+
+.cta-text a:hover {
+    background-color: #262421;
+    border-color: #262421;
+    transition: 0.2s;
+}
+
+.cta-link-2 {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+
+.cta-link-2:hover {
+    background-color: white !important;
+    color: #1F55B3 !important
+}
 
 
 
