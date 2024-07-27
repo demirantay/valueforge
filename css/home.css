@@ -294,6 +294,7 @@
     padding-top: 60px;
     background-color: #F9F7F3;
     text-align: left;
+    height: 270px;
 }
 
 .serice-full-cell-icon {
@@ -336,11 +337,13 @@
     display: block;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
     color: #1F55B3;
     text-decoration: none;
     font-weight: 500;
+    
+    position: absolute;
+    bottom:0;
 }
 
 /* -------------------- portfolio   ------------------------- */
@@ -597,19 +600,194 @@
 
 
 /* Mobile Small  --------------------------------------------------------- */
-@media screen and (min-width: 0px) and (max-width: 320px) {}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+
+}
 
 /* Mobile Medium  --------------------------------------------------------- */
-@media screen and (min-width: 321px) and (max-width: 375px) {}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+
+}
 
 /* Mobile Large - --------------------------------------------------------- */
-@media screen and (min-width: 376px) and (max-width: 425px) {}
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .hello-banner {
+        height: 90vh;
+    }
+    
+    .hello-text {
+        padding-top: 160px;
+        padding-bottom: 50px;
+        top:0;
+    }
+    
+    .hello-banner-left {
+        display: block;
+        width: 98%;
+        text-align: center;
+        padding-top: 0px !important;
+    }
+    
+    .hello-banner-left h1 {
+        font-size: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .hello-banner-right {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .hello-banner-right a {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+
+}
 
 /* Tablet - --------------------------------------------------------------- */
-@media screen and (min-width: 426px) and (max-width: 768px) {}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .hello-banner {
+        height: 95vh;
+    }
+    
+    .hello-banner-left {
+        width: 58%;
+    }
+
+    .hello-banner-left h1 {
+        font-size: 40px;
+    }
+
+    .hello-banner-right {
+        margin-right: 2%;
+        padding-top: 30px;
+    }
+    
+    .hello-banner-right p {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .services-top-left h1 {
+        font-size: 40px;
+    }   
+
+    .services-links-cell {
+        width: 47.5%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 40px;
+    }
+
+    .services-links {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .about-banner-img-1 {
+        height: 40vh;
+        margin-top: 10px;
+    }
+    
+    .about-banner-img-2 {
+        height: 50vh;
+        margin-top: 10px;
+    }
+
+    .about-banner-right h1 {
+        font-size: 35px;
+    }
+    
+    .about-banner-right p {
+        font-size: 15px;
+    }
+
+    .services-banner p {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .service-full-cell {
+        width: 42%;
+    }
+
+    .service-full-cell p {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .left-testimonial {
+        margin-right: 3%;
+        background-size: contain;
+        padding-bottom: 40px;
+    }
+    
+    .right-testimonial {
+        padding: 0px 30px;
+        padding-bottom: 40px;
+        width: 45%;
+    }
+
+    .cta-text {
+        margin-top: 11vh;
+        width: 50%;
+    }
+
+    .cta-text h2 {
+        font-size: 45px;
+    }
+    
+}
 
 /* Laptop ------------------------------------------------------------------ */
-@media screen and (min-width: 769px) and (max-width: 1024px) {}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hello-banner-left h1 {
+        font-size: 50px;
+    }
+    
+    .hello-banner-right p {
+        font-size: 19px;
+        line-height: 1.2;
+    }
+
+    .services-links-cell {
+        height: 720px;
+    }
+
+    .about-banner-img-1 {
+        height: 50vh;
+        width: 230px;
+        margin-top: 60px;
+    }
+    
+    .about-banner-img-2 {
+        height: 60vh;
+        width: 230px;
+        margin-top: 120px;
+    }
+
+    .service-full-cell {
+        height: 270px;
+    }
+
+    .left-testimonial {
+        margin-right: 3%;
+        background-size: contain;
+    }
+    
+    .right-testimonial {
+        padding: 0px 40px;
+        width: 45%;
+    }
+    
+    
+}
 
 /* Laptop Large -------------------------------------------------------------*/
 @media screen and (min-width: 1025px) and (max-width: 1440px) {}
