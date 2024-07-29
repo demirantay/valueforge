@@ -480,6 +480,14 @@
     width: 90%;
     background-color: #E5E7E9;
     border-radius: 6px;
+
+    background-image: url("../img/img16.jpg");
+    background-position: center;
+    position: relative;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .faq-right {

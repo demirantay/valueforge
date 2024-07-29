@@ -127,7 +127,7 @@
     height: 75vh;
     position: relative;
 
-    background-image: url("../img/img8.jpg");
+    background-image: url("../img/img17.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,10 @@
     margin-bottom: 30px;
     margin-left: 30px;
     color: white;
+    background-color: #1F55B3;
     font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 8px;
     
 }
 
