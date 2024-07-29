@@ -388,7 +388,7 @@
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .right-testimonial {
@@ -601,12 +601,482 @@
 
 /* Mobile Small  --------------------------------------------------------- */
 @media screen and (min-width: 0px) and (max-width: 320px) {
+    .hello-banner {
+        height: 90vh;
+    }
+    
+    .hello-text {
+        padding-top: 160px;
+        padding-bottom: 50px;
+        top:0;
+    }
+    
+    .hello-banner-left {
+        display: block;
+        width: 98%;
+        text-align: center;
+        padding-top: 0px !important;
+    }
+    
+    .hello-banner-left h1 {
+        font-size: 45px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .hello-banner-right {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .hello-banner-right a {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
 
+    .services-links {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .services-links-top {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-left {
+        display: block;
+        border-right: 0px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .services-top-left h1 {
+        font-size: 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .services-top-right p {
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    
+    .services-links-bottom {
+        width: 90%;
+        margin-top: 50px;
+    }
+    
+    .services-links-cell {
+        width: 99%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: block;
+        height: 430px;
+        margin-bottom: 40px;
+    }
+    
+    .service-cell-img {
+        height: 250px;
+    }
+
+    .about-banner {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
+    
+      .about-banner-left {
+        display: block;
+        width: 99%;
+      }
+    
+      .about-banner-img-1 {
+        height: 18vh;
+        width: 140px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-img-2 {
+        height: 18vh;
+        width: 140px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-right {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+    
+      .about-banner-right h1 {
+        font-size: 30px;
+      }
+    
+      .about-banner-right p {
+        font-size: 15px;
+      }
+
+      .services-banner {
+        padding-top: 30px;
+        padding-bottom: 100px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .service-full-cell {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        height: 260px;
+    }
+    
+    .serice-full-cell-icon {
+        height: 60px;
+        width: 60px;
+        margin-top: -30px;
+    }
+    
+    .serice-full-cell-icon i {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .photo-gallery-banner {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    
+    .gallery-row-testimonial {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .left-testimonial {
+        height: 220px;
+        display: block;
+        width: 100%;
+        margin-right: 0%;
+        background-size: contain;
+    }
+    
+    .right-testimonial {
+        padding: 20px 20px;
+        display: block;
+        width: 88%;
+        height: auto;
+    }
+
+    .right-testimonial h3 {
+        margin-top: 5px;
+    }
+
+    .faq-banner {
+        width: 90%;
+        padding-top: 35px;
+    }
+    
+    .faq-left {
+        display: block;
+        width: 100%;
+    }
+    
+    .faq-left h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .faq-img {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .faq-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .accordion {
+        font-size: 16px;
+    }
+
+    .panel p {
+        font-size: 15px;
+    }
+
+    .cta-banner {
+        height: 55vh;
+    }
+    
+    .cta-text {
+        margin-top: 5vh;
+        width: 80%;
+    }
+    
+    .cta-text h2 {
+        font-size: 49px;
+        margin-bottom: 40px;
+    }
+
+    .cta-text a {
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 12px 18px;
+        font-size: 15px;
+    }
 }
 
 /* Mobile Medium  --------------------------------------------------------- */
 @media screen and (min-width: 321px) and (max-width: 375px) {
+    .hello-banner {
+        height: 90vh;
+    }
+    
+    .hello-text {
+        padding-top: 160px;
+        padding-bottom: 50px;
+        top:0;
+    }
+    
+    .hello-banner-left {
+        display: block;
+        width: 98%;
+        text-align: center;
+        padding-top: 0px !important;
+    }
+    
+    .hello-banner-left h1 {
+        font-size: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .hello-banner-right {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .hello-banner-right a {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
 
+    .services-links {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .services-links-top {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-left {
+        display: block;
+        border-right: 0px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .services-top-left h1 {
+        font-size: 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .services-top-right p {
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    
+    .services-links-bottom {
+        width: 90%;
+        margin-top: 50px;
+    }
+    
+    .services-links-cell {
+        width: 99%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: block;
+        height: 430px;
+        margin-bottom: 40px;
+    }
+    
+    .service-cell-img {
+        height: 250px;
+    }
+
+    .about-banner {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
+    
+      .about-banner-left {
+        display: block;
+        width: 99%;
+      }
+    
+      .about-banner-img-1 {
+        height: 20vh;
+        width: 160px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-img-2 {
+        height: 20vh;
+        width: 160px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-right {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+    
+      .about-banner-right h1 {
+        font-size: 30px;
+      }
+    
+      .about-banner-right p {
+        font-size: 15px;
+      }
+
+      .services-banner {
+        padding-top: 30px;
+        padding-bottom: 100px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .service-full-cell {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        height: 230px;
+    }
+    
+    .serice-full-cell-icon {
+        height: 60px;
+        width: 60px;
+        margin-top: -30px;
+    }
+    
+    .serice-full-cell-icon i {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    .photo-gallery-banner {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    
+    .gallery-row-testimonial {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .left-testimonial {
+        height: 220px;
+        display: block;
+        width: 100%;
+        margin-right: 0%;
+        background-size: contain;
+    }
+    
+    .right-testimonial {
+        padding: 20px 20px;
+        display: block;
+        width: 88%;
+        height: auto;
+    }
+
+    .right-testimonial h3 {
+        margin-top: 5px;
+    }
+
+    .faq-banner {
+        width: 90%;
+        padding-top: 35px;
+    }
+    
+    .faq-left {
+        display: block;
+        width: 100%;
+    }
+    
+    .faq-left h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .faq-img {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .faq-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .accordion {
+        font-size: 17px;
+    }
+
+    .panel p {
+        font-size: 16px;
+    }
+
+    .cta-banner {
+        height: 55vh;
+    }
+    
+    .cta-text {
+        margin-top: 5vh;
+        width: 80%;
+    }
+    
+    .cta-text h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    .cta-text a {
+        margin-right: 5px;
+        margin-left: 5px;
+        padding: 15px 20px;
+        font-size: 16px;
+    }
 }
 
 /* Mobile Large - --------------------------------------------------------- */
@@ -763,34 +1233,83 @@
         font-size: 30px;
         margin-top: 15px;
     }
-    
-    .service-full-cell h3 {
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 10px;
+
+    .photo-gallery-banner {
+        padding-top: 120px;
+        padding-bottom: 50px;
     }
     
-    .service-full-cell p {
-        margin-left: 10%;
-        margin-right: 10%;
-        line-height: 1.5;
+    .gallery-row-testimonial {
+        width: 80%;
+        margin: 0 auto;
     }
     
-    .service-full-cell a {
+    .left-testimonial {
+        height: 220px;
         display: block;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 20px;
-        color: #1F55B3;
-        text-decoration: none;
-        font-weight: 500;
-        
-        position: absolute;
-        bottom:0;
+        width: 100%;
+        margin-right: 0%;
+        background-size: contain;
+    }
+    
+    .right-testimonial {
+        padding: 20px 20px;
+        display: block;
+        width: 88%;
+        height: auto;
     }
 
+    .right-testimonial h3 {
+        margin-top: 5px;
+    }
 
+    .faq-banner {
+        width: 90%;
+        padding-top: 35px;
+    }
+    
+    .faq-left {
+        display: block;
+        width: 100%;
+    }
+    
+    .faq-left h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .faq-img {
+        height: 150px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .faq-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .accordion {
+        font-size: 17px;
+    }
 
+    .panel p {
+        font-size: 16px;
+    }
+
+    .cta-banner {
+        height: 55vh;
+    }
+    
+    .cta-text {
+        margin-top: 5vh;
+        width: 80%;
+    }
+    
+    .cta-text h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
 }
 
 /* Tablet - --------------------------------------------------------------- */
