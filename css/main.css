@@ -556,8 +556,12 @@
     }
 
     .breadcrumb-banner h1 {
-        padding-top: 50px;
-        font-size: 45px !important;
+        padding-top: 40px;
+        font-size: 30px !important;
+    }
+
+    .breadcrumb-banner h3 {
+        font-size: 16px;
     }
 
     .footer {
@@ -647,8 +651,12 @@
     }
 
     .breadcrumb-banner h1 {
-        padding-top: 50px;
-        font-size: 45px !important;
+        padding-top: 38px;
+        font-size: 30px !important;
+    }
+
+    .breadcrumb-banner h3 {
+        font-size: 17px;
     }
 
     .footer {
@@ -737,8 +745,12 @@
     }
 
     .breadcrumb-banner h1 {
-        padding-top: 50px;
-        font-size: 45px !important;
+        padding-top: 40px;
+        font-size: 30px !important;
+    }
+
+    .breadcrumb-banner h3 {
+        font-size: 18px;
     }
 
     .footer {
