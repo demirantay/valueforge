@@ -646,7 +646,150 @@
         margin: 0 auto;
         margin-top: 40px;
     }
+
+    .services-links {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
     
+    .services-links-top {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-left {
+        display: block;
+        border-right: 0px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .services-top-left h1 {
+        font-size: 35px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .services-top-right {
+        display: block;
+        width: 100%;
+    }
+    
+    .services-top-right p {
+        margin-right: 20px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    
+    .services-links-bottom {
+        width: 90%;
+        margin-top: 50px;
+    }
+    
+    .services-links-cell {
+        width: 99%;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        display: block;
+        height: 430px;
+        margin-bottom: 40px;
+    }
+    
+    .service-cell-img {
+        height: 250px;
+    }
+
+    .about-banner {
+        padding-top: 30px;
+        padding-bottom: 60px;
+      }
+    
+      .about-banner-left {
+        display: block;
+        width: 99%;
+      }
+    
+      .about-banner-img-1 {
+        height: 20vh;
+        width: 160px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-img-2 {
+        height: 20vh;
+        width: 160px;
+        margin-top: 0px;
+      }
+    
+      .about-banner-right {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+    
+      .about-banner-right h1 {
+        font-size: 30px;
+      }
+    
+      .about-banner-right p {
+        font-size: 15px;
+      }
+
+      .services-banner {
+        padding-top: 30px;
+        padding-bottom: 100px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .service-full-cell {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        height: 230px;
+    }
+    
+    .serice-full-cell-icon {
+        height: 60px;
+        width: 60px;
+        margin-top: -30px;
+    }
+    
+    .serice-full-cell-icon i {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    
+    .service-full-cell h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10px;
+    }
+    
+    .service-full-cell p {
+        margin-left: 10%;
+        margin-right: 10%;
+        line-height: 1.5;
+    }
+    
+    .service-full-cell a {
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 20px;
+        color: #1F55B3;
+        text-decoration: none;
+        font-weight: 500;
+        
+        position: absolute;
+        bottom:0;
+    }
+
+
 
 }
 
